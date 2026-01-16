@@ -1,0 +1,51 @@
+# Core FastAPI
+fastapi
+uvicorn[standard]
+
+# Data Validation
+pydantic
+pydantic[email]
+pydantic-settings
+
+# Authentication
+python-jose[cryptography]
+python-multipart
+passlib[bcrypt]
+
+# Database
+motor                      # Async MongoDB driver
+dnspython                  # MongoDB DNS support
+
+# Task Queue & Caching (Optional)
+redis
+celery
+
+# HTTP & WebSocket
+requests
+websockets
+aiohttp                    # Async HTTP client
+
+# Stock Market Data APIs
+yfinance                   # Yahoo Finance (Free)
+nsepython                  # NSE India unofficial API (Free)
+# alpha-vantage            # Alpha Vantage (Uncomment if using)
+
+# Scheduling
+apscheduler                # Advanced Python Scheduler
+
+# Data Processing
+pandas                     # Data analysis
+numpy                      # Numerical computing
+
+# Utilities
+python-dotenv              # Load .env files
+python-json-logger         # JSON logging
+
+# Monitoring (Optional)
+prometheus-client          # Metrics
+
+# CORS & Security
+slowapi                    # Rate limiting
+
+# Date/Time
+python-dateutil
