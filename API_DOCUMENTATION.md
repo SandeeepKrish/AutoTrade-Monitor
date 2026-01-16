@@ -1,4 +1,4 @@
-# 📡 API Documentation
+#  API Documentation
 
 ## Base URL
 ```
@@ -14,7 +14,7 @@ Authorization: Bearer <your-jwt-token>
 
 ---
 
-## 🔐 Authentication Endpoints
+##  Authentication Endpoints
 
 ### Register User
 **POST** `/api/auth/register`
@@ -87,7 +87,7 @@ Authorization: Bearer <token>
 
 ---
 
-## 📊 Stock Endpoints
+##  Stock Endpoints
 
 ### List All Stocks
 **GET** `/api/stocks/`
@@ -253,7 +253,7 @@ Authorization: Bearer <token>
 
 ---
 
-## 📋 Price Range Rules Endpoints
+##  Price Range Rules Endpoints
 
 ### Create Price Range Rule
 **POST** `/api/rules/`
@@ -395,7 +395,7 @@ Authorization: Bearer <token>
 
 ---
 
-## 📦 Order Endpoints
+##  Order Endpoints
 
 ### Create Order (Buy Stocks)
 **POST** `/api/orders/`
@@ -609,7 +609,7 @@ All errors follow this format:
 
 ---
 
-## 📝 Example Usage (JavaScript/Axios)
+##  Example Usage (JavaScript/Axios)
 
 ### Setup Axios Instance
 ```javascript
@@ -716,7 +716,7 @@ const connectWebSocket = (token) => {
 
 ---
 
-## 🧪 Testing with cURL
+##  Testing with cURL
 
 ### Register
 ```bash
@@ -748,7 +748,7 @@ curl -X POST http://localhost:8000/api/rules/ \
 
 ---
 
-## 📚 Interactive API Documentation
+##  Interactive API Documentation
 
 FastAPI automatically generates interactive API documentation:
 
