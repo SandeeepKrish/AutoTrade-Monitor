@@ -1,6 +1,6 @@
-# 🚀 Stock Auto-Cart Dashboard - Setup Guide
+#  Stock Auto-Cart Dashboard - Setup Guide
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - **Python**: 3.10 or higher
 - **Node.js**: 18 or higher
@@ -9,7 +9,7 @@
 
 ---
 
-## 🔧 Backend Setup
+##  Backend Setup
 
 ### 1. Navigate to Backend Directory
 ```bash
