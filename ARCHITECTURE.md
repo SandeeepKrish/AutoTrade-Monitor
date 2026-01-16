@@ -1,4 +1,4 @@
-# 🏗️ Stock Auto-Cart Dashboard - Architecture
+#  Stock Auto-Cart Dashboard - Architecture
 
 ## System Architecture Diagram
 
